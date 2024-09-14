@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div itemref="logo">
+        <h1>ROMMELMARKT</h1>
+        <h2>VANDAAG</h2>
+        <h3>Zoeken</h3>
+        <img src="" alt="">
+    </div>
+    <form id="dates">
+        <label for="startDate">Startdatum</label> 
+        <input type="date" id="startDate" name="startDate" ><br></br>
+        <label for="startDate">Einddatum</label> 
+        <input type="date" id="endDate" name="endDate" ><br></br>
+        <button type="button" value="submit" id="search" onclick="mySearch()">Zoeken</button>
+    </form>
+    <div id="results"></div>
+</body>
+<script src="renderer.js"></script>
+
+</html>
